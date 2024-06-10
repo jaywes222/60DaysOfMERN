@@ -59,14 +59,14 @@ The div element, short for "division," is a fundamental block-level element in H
 #HTML Forms
 A form is created using the <form> element, which acts as a container for various input elements. The basic structure of a form includes attributes like action and method that specify how form data is submitted.
 
-<form action="/submit-form" method="post">
+form action="/submit-form" method="post">
   <!-- Form elements go here -->
-</form>
+form
 
 There are various types of input elements: 
 
-1. <input type="text">
-2. <input type="password">
-3. <input type="email">
-4. <input type="number">
-5. <input type="tel"> etc..
+1. input type="text">
+2. input type="password">
+3. input type="email">
+4. input type="number">
+5. input type="tel"> etc..
