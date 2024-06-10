@@ -87,3 +87,37 @@ External CSS is defined in a separate CSS file and linked to the HTML document u
 - Link the External CSS File to Your HTML Document
 link rel="stylesheet" href="styles.css"
 in the head section of your html doc.
+
+#What is CSS?
+CSS refers to Cascading Style Sheets. It is used for styling our HTML.
+
+Why Use CSS?
+
+1. Separation of Concerns: CSS allows you to separate the content (HTML) from the presentation (design). This makes your code easier to maintain and your website easier to update.
+
+2. Consistency: By using external stylesheets, you can ensure that the design is consistent across all pages of a website.
+
+3. Flexibility: CSS provides a wide range of styling options, allowing for creativity and flexibility in design.
+
+4. Performance: CSS can improve the load time of web pages by reducing the amount of HTML code and reusing the same stylesheet across multiple pages.
+
+CSS Syntax
+
+h1 {
+  color: red;
+  font-size: 24px;
+}
+
+Explanation:
+- Selector: h1 
+This specifies which HTML elements the rule applies to (in this case, all h1 elements).
+
+- Declaration Block: 
+Contains one or more declarations separated by semicolons. 
+Each declaration includes a property and a value, separated by a colon.
+Property: color
+Value: red
+
+As we have already learnt about 3 ways to add CSS to our HTML file (i.e inline, internal, external) The priority of these rules go as following:
+
+the inline rule > the internal rule > the external rule
