@@ -25,3 +25,34 @@ JavaScript is loaded and executed, which can modify the DOM and CSS, leading to 
 
 6. Handling User Interactions:
 The browser listens for user actions (like clicks) and updates the page accordingly.
+
+#HTML Tags
+We have various HTML tags that can be used to display text on our HTML web page.
+Starting with:
+
+1. <p>: Paragraph
+2. <h1>: Heading level 1
+3. <h2>: Heading level 2
+4. <h3>: Heading level 3
+5. <h4>: Heading level 4
+5. <h5>: Heading level 5
+6. <h6>: Heading level 6
+7. <strong>: Strong importance (usually bold)
+8. <em>: Emphasized text (usually italic)
+9. <u>: Underlined text
+10. <sub>: Subscript text
+11. <sup>: Superscript text
+12. <blockquote>: Long quotation
+13. <abbr>: Abbreviation
+14. <br>: Line break
+15. <span>: Generic inline container
+
+#Inline VS Block Elements
+
+In HTML, elements are categorized as either block-level elements or inline elements based on their default display behavior and layout characteristics.
+Block-level elements occupy the full width of their parent container and always start on a new line, thereby creating a block of content. They can contain other block-level elements as well as inline elements, making them ideal for structuring the main sections of a webpage. Common block-level elements include <div>*, <p>, <h1> to <h6>, and <ul>.
+On the other hand, inline elements only take up as much width as necessary for their content and do not start on a new line, allowing them to sit within a line of text alongside other inline elements. They are typically used for small pieces of content within block-level elements, such as links, emphasized text, and images. Common inline elements include <span>, <a>, <strong>, and <img>.
+
+* <div> in HTML:
+The <div> element, short for "division," is a fundamental block-level element in HTML used to group and organize other elements within a webpage. It is often used as a container for various content sections, providing structure and layout control.
+
