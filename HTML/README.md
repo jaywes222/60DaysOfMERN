@@ -70,3 +70,20 @@ There are various types of input elements:
 3. input type="email">
 4. input type="number">
 5. input type="tel"> etc..
+
+#Adding CSS to an HTML file 
+
+Here are the three main methods:
+
+1. Inline CSS
+Inline CSS applies styles directly to a single HTML element using the style attribute.
+
+ 2. Internal CSS
+Internal CSS is defined within a style element in the head section of the HTML document. This method is suitable for small to medium-sized projects or when you want to apply styles to a single HTML document.
+
+3. External CSS
+External CSS is defined in a separate CSS file and linked to the HTML document using the link element in the head section. This is the preferred method.
+- Create an External CSS File (e.g.,styles.css)
+- Link the External CSS File to Your HTML Document
+link rel="stylesheet" href="styles.css"
+in the head section of your html doc.
