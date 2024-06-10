@@ -50,9 +50,9 @@ Starting with:
 #Inline VS Block Elements
 
 In HTML, elements are categorized as either block-level elements or inline elements based on their default display behavior and layout characteristics.
-Block-level elements occupy the full width of their parent container and always start on a new line, thereby creating a block of content. They can contain other block-level elements as well as inline elements, making them ideal for structuring the main sections of a webpage. Common block-level elements include <div>*, <p>, <h1> to <h6>, and <ul>.
-On the other hand, inline elements only take up as much width as necessary for their content and do not start on a new line, allowing them to sit within a line of text alongside other inline elements. They are typically used for small pieces of content within block-level elements, such as links, emphasized text, and images. Common inline elements include <span>, <a>, <strong>, and <img>.
+Block-level elements occupy the full width of their parent container and always start on a new line, thereby creating a block of content. They can contain other block-level elements as well as inline elements, making them ideal for structuring the main sections of a webpage. Common block-level elements include div, p, h1 to h6, and ul.
+On the other hand, inline elements only take up as much width as necessary for their content and do not start on a new line, allowing them to sit within a line of text alongside other inline elements. They are typically used for small pieces of content within block-level elements, such as links, emphasized text, and images. Common inline elements include span, a, strong, and img.
 
-* <div> in HTML:
-The <div> element, short for "division," is a fundamental block-level element in HTML used to group and organize other elements within a webpage. It is often used as a container for various content sections, providing structure and layout control.
+#div in HTML:
+The div element, short for "division," is a fundamental block-level element in HTML used to group and organize other elements within a webpage. It is often used as a container for various content sections, providing structure and layout control.
 
