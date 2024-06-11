@@ -1,0 +1,21 @@
+.background-example {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #000;
+
+/* Background Properties */
+    background-color: lightblue;
+    background-image: url("https://via.placeholder.com/150"), linear-gradient(to right, red, yellow); /* Sets multiple background images*/
+    background-repeat: no-repeat, repeat;
+    background-position: top left, center; /* Sets background images positions */
+    background-size: 50px 50px, cover;
+    background-attachment: scroll, fixed;
+
+/* Border Properties */
+border-width: thin, medium, thick;
+border-color: violet, #ee82ee,hwb(300 51% 7%), rgb(238, 130, 238);
+border-style: dotted none solid dashed; /* Top right bottom left respectively */
+border-style: solid dashed double;  /* Top right & left bottom respectively */
+border-style: dotted dashed;  /* Top & Bottom Right & Left respectively */
+}
+
