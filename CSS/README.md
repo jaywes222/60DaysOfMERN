@@ -96,3 +96,58 @@ Components of the CSS Box Model
 4. Margin
 - The space outside the border, creating distance between the element and its neighboring elements.
 - Margins can also be set individually for each side or all sides at once. Margins can collapse, meaning adjacent vertical margins can combine into a single margin equal to the largest one.
+
+#CSS Display Properties
+The display property in CSS is used to control the layout and rendering of elements on a web page.
+
+1. block
+- The element is displayed as a block-level element.
+- Takes up the full width of its parent container by default.
+- Starts on a new line, and any subsequent elements are pushed to the next line.
+
+2. inline
+- The element is displayed as an inline-level element.
+- Takes up only as much width as necessary and does not start on a new line.
+- Allows other elements to flow around it.
+
+3. inline-block
+- Combines characteristics of both block and inline.
+- The element is formatted as an inline element but can have width and height set like a block element.
+- Does not start on a new line and allows other elements to flow around it.
+
+#CSS Positioning Property
+The position property in CSS is used to control the positioning of elements on a web page. It allows you to specify how an element is placed in relation to its containing element and other elements.
+
+1. static
+- Default value for all elements.
+- Elements are positioned according to the normal flow of the document.
+- top, right, bottom, and left properties have no effect.
+
+2. relative
+- Element is positioned relative to its normal position in the document flow.
+- top, right, bottom, and left properties move the element from its normal position without affecting the layout of other elements.
+
+3. absolute
+- Element is removed from the normal document flow and positioned relative to its nearest positioned ancestor (an ancestor with a position value of relative, absolute, fixed, or sticky). If no such ancestor exists, it is positioned relative to the initial containing block (typically the <html> element).
+- Other elements are positioned as if the absolutely positioned element does not exist.
+
+4. fixed
+- Element is removed from the normal document flow and positioned relative to the viewport (the browser window).
+- Stays in the same position even when the page is scrolled.
+
+5. sticky
+- Element is treated as relative until it crosses a specified threshold, at which point it is treated as fixed.
+- Useful for elements that should stick to the viewport while scrolling within a container.
+
+#CSS Units
+CSS units are used to specify various measurements for styling web elements, such as dimensions, spacing, font sizes, and more.
+
+1. Absolute Units
+Absolute units are fixed and do not change based on other elements or the viewport. They are best used when the exact size of an element is critical.
+
+eg: px (pixels), cm (centimeters), mm (millimeters) etc.
+
+2. Relative Units
+Relative units are relative to other measurements, such as the parent element’s size or the viewport. They are useful for creating flexible and responsive designs.
+
+eg: % (percentage), em, rem (root em), vw (viewport width) etc
