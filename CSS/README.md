@@ -200,3 +200,91 @@ These properties control how the mouse pointer looks when it hovers over the ele
 3. crosshair: A simple crosshair icon.
 4. text: An I-beam icon, indicating text that can be selected.
 5. not-allowed: A circle with a slash through it, indicating an action is not allowed.
+
+#CSS Media Queries:
+Media queries allow you to apply CSS styles conditionally based on the characteristics of the device rendering the content, such as the viewport width, height, resolution, orientation, and more.
+
+Syntax:
+@ media (condition) {
+  /* CSS rules */
+}
+
+Common Use Cases:
+
+- Responsive Design: Adjust layouts based on device size.
+- Print Styles: Apply styles for printing.
+- Dark Mode: Switch between light and dark themes.
+
+#CSS Flexbox
+
+Flexbox (Flexible Box Layout) provides a way to layout items in a container with flexibility and alignment control.
+
+Basic Concepts:
+
+- Flex Container: The parent element with display: flex.
+- Flex Items: The direct children of the flex container.
+
+Syntax:
+.container {
+  display: flex;
+}
+
+Key Properties for the Container:
+
+- flex-direction: Defines the direction of the items (row, column, row-reverse, column-reverse).
+
+- flex-wrap: Defines whether items should wrap (nowrap, wrap, wrap-reverse).
+
+- justify-content: Aligns items horizontally (flex-start, flex-end, center, space-between, space-around, space-evenly).
+
+- align-items: Aligns items vertically (flex-start, flex-end, center, stretch, baseline).
+
+Key Properties for the Items:
+
+- order: Defines the order of items.
+
+- flex-grow: Defines the ability of an item to grow.
+
+- flex-shrink: Defines the ability of an item to shrink.
+
+- flex-basis: Defines the initial size of an item.
+
+- align-self: Overrides align-items for individual items.
+
+#CSS Grid
+
+CSS Grid Layout is a powerful tool for creating two-dimensional layouts with rows and columns.
+
+Basic Concepts:
+
+- Grid Container: The parent element with display: grid.
+- Grid Items: The direct children of the grid container.
+
+Key Properties for the Container:
+
+1. grid-template-columns: Defines the columns of the grid.
+
+2. grid-template-rows: Defines the rows of the grid.
+
+3. grid-template-areas: Defines named grid areas.
+
+4. gap: Sets the spacing between rows and columns.
+
+5. justify-items: Aligns items horizontally.
+
+6. align-items: Aligns items vertically.
+
+7. place-items: Shorthand for justify-items and align-items.
+
+Key Properties for the Items:
+
+1. grid-column-start, grid-column-end
+
+2. grid-row-start, grid-row-end
+
+3. grid-area: Defines a grid item’s size and location.
+
+4. justify-self: Aligns a grid item horizontally within its grid area.
+
+5. align-self: Aligns a grid item vertically within its grid area.
+
