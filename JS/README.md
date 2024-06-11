@@ -41,3 +41,45 @@ Syntax: prompt(message, default);
 message: The string you want to display in the prompt box.
 default (optional): A default string to display in the input field.
 
+
+##Data Types in JavaScript:
+
+1. String:
+Strings are sequences of characters used for text. You can create strings using single quotes (' '), double quotes (" "), or backticks ( ). They are used for anything involving text, such as names or messages.
+
+2. Number: 
+In JavaScript, numbers include both whole numbers and decimals. You use the same type for all numbers, whether you’re counting items or measuring distance. Special values like Infinity and NaN (Not-a-Number) also fall under this type.
+
+3. BigInt:
+BigInt is used for very large integers that are beyond the safe limit of the Number type. It's helpful for calculations requiring high precision.
+
+4. Boolean:
+Booleans represent two values: true or false. They are mainly used to make decisions in your code, such as checking if a user is logged in or if a number is greater than another number.
+
+5. Undefined:
+Undefined means a variable has been declared but hasn't been given a value yet. It shows that something is missing or not set.
+
+6. Null: 
+Null is a special value that means “no value” or “empty.” It's used to show that a variable intentionally has no object value.
+
+7. Symbol:
+Symbols are unique and immutable values that can be used as object keys. They help avoid conflicts by ensuring that each key is unique, even if they have the same name.
+
+8. Object:
+Objects are collections of related data and functions, stored as key-value pairs. Think of an object as a way to group different pieces of information about something, like a user profile with a name, age, and email
+
+#Variables:
+A variable is a named container that stores data values. Variables are fundamental in programming because they allow you to store, retrieve, and manipulate data throughout your code.
+
+Naming convention for variables:
+- try to give meaningful names.
+- cannot use keywords as variable names.
+- cannot begin with numbers.
+- should not contain spaces.
+- only contain letters, numbers, _ , $
+
+*Declaring Variables
+In JavaScript, you can declare variables using var, let, or const. Each has its own rules and best-use scenarios.
+var- Functional scope: Can be updated and re-declared into the scope
+let- Block scope: Can be updated but can't be re-declared into the scope
+const - Block scope: Can't be updated or re-declared into the scope
