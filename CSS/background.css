@@ -22,18 +22,22 @@ border-style: dotted dashed;  /* Top & Bottom Right & Left respectively */
 padding: 10px 20px;
 margin: 20px 40px;
 
-/* Display Properties */
+/* Display Properties - Structures the layout */
 display: block, inline, inline-block;
 
-/* Position Properties */
+/* Position Properties - Structures the layout  */
 position: static, fixed, relative, absolute;
 
 /* CSS Units
-Relative: rem, em, ex, ch, vh, vw, %.
+
+Relative: rem, em, ex, ch, vh, vw, % - MAkes the pages responsive.
 Absolute: px, pc, pt, cm, mm, in.
 rem- relative to the font size of the root element i.e html{font-size: 20px;} => 1rem = 20px, 
 mm,cm,in - Good for print, not so good for web
 px - absolute pixel value(relative to the viewing device) i.e: 1px = 1/96th of 1in
+
 */
+
+
 }
 

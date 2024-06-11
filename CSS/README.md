@@ -151,3 +151,52 @@ eg: px (pixels), cm (centimeters), mm (millimeters) etc.
 Relative units are relative to other measurements, such as the parent element’s size or the viewport. They are useful for creating flexible and responsive designs.
 
 eg: % (percentage), em, rem (root em), vw (viewport width) etc
+
+#CSS Z-index
+CSS z-index is a property that controls the stacking order of elements on a web page. Here's a simple way to understand it:
+
+- Stacking Order: 
+Think of your web page as a stack of papers. The z-index helps you decide which paper (element) is on top of the stack and which is underneath.
+
+- Higher Value, Higher Position: 
+The higher the z-index value, the closer the element is to the front. An element with a z-index of 10 will be in front of an element with a z-index of 5.
+
+- Default Value: 
+If you don't set a z-index value, elements are stacked in the order they appear in the HTML code.
+
+- Positioned Elements: 
+The z-index only works on elements that have a position value other than static. This means you need to set the element's position to relative, absolute, fixed, or sticky.
+
+Pseudo Class
+A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected elements. It allows you to style elements based on their state or position in the document tree, even if they don't have a specific class or ID.
+
+Here's a simple breakdown:
+
+- Pseudo-classes are used to define the styling for a special state of an element. For example, when a user hovers over a link, you might want the link to change color.
+
+Syntax: 
+A pseudo-class is written after the selector, prefixed with a colon (:). For example, a:hover targets an anchor (<a>) element when it is being hovered over by the mouse.
+
+Common Pseudo-Classes:
+
+:hover : Applies when the user designates an element (usually by mousing over it).
+
+:active : Applies when an element is being activated by the user (e.g., clicked on).
+
+:focus : Applies when an element has focus, such as when a user clicks on an input field.
+
+:first-child: Applies to an element that is the first child of its parent.
+
+:last-child: Applies to an element that is the last child of its parent.
+
+:nth-child(n): Applies to an element that is the nth child of its parent.
+
+#Cursor Properties:
+
+These properties control how the mouse pointer looks when it hovers over the element.
+
+1. default: The default cursor, typically an arrow.
+2. pointer: A hand icon, usually indicating a link or an interactive element.
+3. crosshair: A simple crosshair icon.
+4. text: An I-beam icon, indicating text that can be selected.
+5. not-allowed: A circle with a slash through it, indicating an action is not allowed.
