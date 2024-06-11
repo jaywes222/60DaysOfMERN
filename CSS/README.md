@@ -74,3 +74,25 @@ Specifies the radius of the border's corners, allowing for rounded corners.
 eg:
 border-radius: 10px;
 border-radius: 50%;
+
+
+#CSS Box Model
+The CSS Box Model is a fundamental concept in web design and development that dictates how elements are structured and displayed on a web page.
+
+Components of the CSS Box Model
+
+1. Content
+- The innermost part of the box where text, images, and other media are displayed.
+- Width and height properties define the size of the content area.
+
+2. Padding
+- The space between the content and the border.
+- Padding can be set individually for each side (top, right, bottom, left) or all sides at once.
+
+3. Border
+- A line that surrounds the padding (if any) and content.
+- Border properties include width, style, and color. Borders can also be set individually for each side.
+
+4. Margin
+- The space outside the border, creating distance between the element and its neighboring elements.
+- Margins can also be set individually for each side or all sides at once. Margins can collapse, meaning adjacent vertical margins can combine into a single margin equal to the largest one.
